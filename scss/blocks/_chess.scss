@@ -1,0 +1,38 @@
+.chess{
+    display: flex;
+    flex-flow: row wrap;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    height: 700px;
+    border: 10px solid #333;
+}
+
+.box{
+    width: 85px;
+    height: 85px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+    background-size: 50px 50px !important;
+    background-repeat: no-repeat !important;
+    background-position:center center !important;
+}
+
+
+.figures__btn{
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    pointer-events: none;
+}
